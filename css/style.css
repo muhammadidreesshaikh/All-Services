@@ -46,3 +46,102 @@ a{
 {
     display: none;
 } */
+
+.top-bar
+{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #001500;
+    background-blend-mode: soft-light;
+    width: 100%;
+    height: 100vh;
+    padding: 3% 0;
+}
+
+.top-bar .logo i
+{
+    font-size: 55px;
+    color: #4bd24b;
+}
+
+.top-bar .nav-bar
+{
+    float: right;
+}
+
+.top-bar .nav-bar ul
+{
+    display: flex;
+    list-style: none;
+    padding-top: 3%;
+}
+
+.top-bar .nav-bar li
+{
+    padding: 0 15px 0 15px;
+    font-size: 17px;
+    text-align: center;
+    display: block;
+    border-bottom: 1px solid transparent;
+}
+
+.top-bar .nav-bar a
+{
+    color: white;
+    text-align: center;
+    display: block;
+    padding-bottom: 3px;
+} 
+
+.top-bar .nav-bar li a:hover
+{
+    color: white;
+    text-align: center;
+    display: block;
+    border-bottom: 2px solid #4bd24b;
+    padding-bottom: 3px;
+} 
+
+.top-bar .slider
+{
+    text-align: center;
+    padding-top: 15%;
+}
+
+.top-bar .slider h1
+{
+    font-size: 45px;
+    color: white;
+}
+
+.top-bar .slider p
+{
+    font-size: 17px;
+    color: #8c8c8c;
+    padding-top: 2%;
+}
+
+.top-bar .slider .btn1
+{
+    margin-top: 5%;
+}
+
+.top-bar .slider .btn1 a
+{
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #416aff;
+    padding: 10px 5%;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.top-bar .slider .btn1 a:hover
+{
+    background-color: #bc0000;
+    opacity: 0.5s;
+    transition: 0.5s;
+    color: #fff;
+}
