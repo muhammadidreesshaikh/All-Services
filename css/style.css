@@ -99,7 +99,7 @@ a{
     color: white;
     text-align: center;
     display: block;
-    border-bottom: 2px solid #4bd24b;
+    border-bottom: 2px solid #bc0000;
     padding-bottom: 3px;
 } 
 
@@ -145,3 +145,69 @@ a{
     transition: 0.5s;
     color: #fff;
 }
+
+.about 
+{
+    padding: 2% 0;
+    text-align: center;
+    background-color: #860c00;
+}
+
+.about .wrapper
+{
+    padding-top: 10%;
+}
+
+.about .wrapper h1
+{
+    color: white;
+    font-size: 40px;
+}
+
+.about .wrapper p
+{
+    color: #e3e3e3;
+    padding-top: 5%;
+    font-size: 15px;
+}
+
+.about .wrapper .seprator
+{
+    background-color: #4bd24b;
+    width: 20%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.about img
+{
+    width: 70%;
+    height: auto;
+}
+
+.about .wrapper .btn2
+{
+    margin-top: 8%;
+}
+
+.about .wrapper .btn2 a
+{
+    color: white;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: black;
+    padding: 10px 5%;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.about .wrapper .btn2 a:hover
+{
+    background-color: #063cff;
+    opacity: 0.5s;
+    transition: 0.5s;
+    color: #fff;
+}
+
