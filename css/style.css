@@ -148,7 +148,7 @@ a{
 
 .about 
 {
-    padding: 2% 0;
+    padding: 3% 0;
     text-align: center;
     background-color: #860c00;
 }
@@ -210,4 +210,114 @@ a{
     transition: 0.5s;
     color: #fff;
 }
+
+.service
+{
+    padding: 8% 0 5% 0;
+    background-blend-mode: soft-light;
+    background-color: #001f07f2;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.service h1
+{
+    color: white;
+    font-size: 40px;
+}
+
+.service .seprator
+{
+    background-color: #4bd24b;
+    width: 13%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.service .serve
+{
+    padding-top: 10%;
+}
+
+.service .serve .main:hover
+{
+    background-color: #ffffff33;
+}
+
+.service .serve .cards
+{
+    margin: 20% 0;
+}
+
+.service .serve .cards .image2
+{
+    border: 5px solid #ff0000db;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: relative;
+    margin: auto;
+}
+
+.service .serve .cards .image2 img
+{
+    top: -60%;
+    left: 15%;
+    width: 60px;
+    height: 120px;
+    position: absolute;
+    display: block;
+    margin: auto;
+    /* object-fit: cover;
+    object-position: top; */
+   
+}
+
+.service .serve .head
+{
+    padding-top: 5%;
+}
+
+.service .serve .head h4
+{
+    color: white;
+    font-size: 30px;
+}
+
+.service .serve .head p
+{
+    font-size: 14px;
+    color: #c8c8c8;
+    padding: 5% 8%;
+}
+
+.service .serve .btn2
+{
+    margin-top: 7%;
+}
+
+.service .serve .btn2 a
+{
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #5d0000ad;
+    padding: 10px 10%;
+    font-size: 15px;
+}
+
+.service .serve .btn2 a:hover
+{
+    background-color: white;
+    opacity: 0.5s;
+    transition: 0.5s;
+    color: black;
+}
+
 
